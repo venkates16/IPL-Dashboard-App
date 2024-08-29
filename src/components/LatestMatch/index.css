@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.latestMatch {
+  background-color: #0f172a;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.teamLogo {
+  width: 20%;
+  position: relative;
+  right: 130px;
+}
+
+.textInings {
+  font-size: 20px;
+}
+
+.pareInnings {
+  text-align: right;
+}
+
+.matchdata {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .latestMatch {
+    background-color: #0f172a;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .latestMatch {
+    background-color: #0f172a;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+    flex-grow: 2;
+  }
+  .teamLogo {
+    width: 150px;
+
+    position: static;
+    right: 0px;
+  }
+
+  .textInings {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .pareInnings {
+    text-align: left;
+  }
+
+  .matchdata {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    margin: 12px 0px;
+  }
+  .alignLogoToRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.alignLogoToRight {
+  display: flex;
+  flex-direction: ;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+@media (min-width: 567px) and (max-width: 990px) {
+  .alignLogoToRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

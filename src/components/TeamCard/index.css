@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.MatchAlign {
+  display: flex;
+  gap: 12px;
+
+  align-items: center;
+}
+
+.matchLogo {
+  width: 80px;
+}
+li {
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  flex-direction: column;
+  width: 38vw;
+  border: 2px solid #afafd1;
+  gap: 12px;
+  border-radius: 10px;
+  height: 140px;
+  padding: 12px;
+}
+
+@media (max-width: 568px) {
+  li {
+    width: 78vw;
+  }
+}

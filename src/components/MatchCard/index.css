@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.matchCards {
+  background-color: #0f172a;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  height: 390px;
+}
+
+.LogoMatch {
+  width: 80px;
+}
+
+.wonColor {
+  color: rgb(3, 238, 54);
+}
+.lostColor {
+  color: red;
+}
